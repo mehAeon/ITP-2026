@@ -8,5 +8,13 @@ int main () {
         case 3: printf("1\n"); break;
         case 4: printf("2\n"); break;
         default: printf("done\n");
+    
+        enum lights {
+            red,
+            yellow,
+            green
+        } l1;
+
+        l1 = red;
     }
 }
